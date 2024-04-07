@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, #B8B2EE, #887ED7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    background: linear-gradient(90deg, #5D54A4, #7C78B8);		
+	position: relative;	
+	height: 400px;
+	width: 280px;	
+	box-shadow: 0px 0px 24px #5C5696;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#boxinside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.signinbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 2px solid #5C5696;
+    border-radius: 20px;
+    background: #fff;
+    margin: 10px 0;
+}
+.signinbox input{
+    border: none;
+    outline: none;
+}
+.signinbox img{
+    padding: 5px;
+    height: 10px;
+    width: 10px;
+}
+.signinbox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 2px solid #5C5696;
+    border-radius: 20px;
+    background: #fff;
+    margin: 10px 0;
+}
+.signinbox2 input{
+    border: none;
+    outline: none;
+}
+
+.signinbox2 #Submit{
+    height: 100%;
+    width: 100%;
+}
+#lowernavigation{
+    margin-top: 30px;
+    height: 80px;
+    width: 65%;
+}
+#lowernavigation h2{
+    margin-top: 5px;
+    width: 100%;
+}
+#images{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#images a:hover{
+    box-shadow: 5px 5px 10px #5C5696; 
+    transform: translateY(5px);
+}
+#images img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+#signup{
+    margin-top: 30px;
+    height: 20px;
+    width: 70%;
+    /* background: #000; */
+}
+#signup a{
+    text-decoration: none;
+    display: inline;
+    color: #c4feff;
+}
+#formdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#loginheading{
+    text-align: center;
+}
