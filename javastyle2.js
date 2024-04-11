@@ -31,3 +31,11 @@ loginbox.addEventListener("mouseleave", function(){
     loginbox.style.backgroundColor="#fff";
     loginbtn.style.backgroundColor="#fff";
 })
+loginbox.addEventListener("click", function(e){
+    let conformmsg = confirm("Do You want to publish your Team?");
+    if (conformmsg) {
+        alert("Thanks for Creating Team!. Your Team will publish soon after our Validation.")
+    } else {
+        e.preventDefault();
+    }
+})
