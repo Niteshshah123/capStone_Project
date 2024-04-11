@@ -20,9 +20,14 @@ btn.forEach((item) =>{
         // console.log(need);
         let originaldata = data.innerHTML;
         originaldata -=1;
+        data.innerHTML=originaldata;
+        if (originaldata==0) {
+            data.innerHTML="No further participate needed";
+            e.target.disabled=true;
+        }
         console.log(originaldata)
         // participant.innerHTML=need;
-        data.innerHTML=originaldata;
+        
         } else {
         // alert("You clicked Cancel!");
     
