@@ -36,6 +36,22 @@ body{
     background: #fff;
     margin: 10px 0;
 }
+.signinbox3{    
+    height: 25px;
+    
+    border-radius: 20px;
+    background: #fff;
+    margin: 10px 0;
+}
+/* .signinbox3:hover{
+    background: #B8B2EE ;
+} */
+.signinbox3 button{
+    border-radius: 20px;
+}
+.signinbox3 button:hover{
+    background: #B8B2EE ;
+}
 .signinbox input{
     border: none;
     outline: none;
@@ -50,7 +66,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 5px;
-    border: 2px solid #5C5696;
+    border: 2px solid hsl(246, 27%, 46%);
     border-radius: 20px;
     background: #fff;
     margin: 10px 0;

@@ -3,11 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Team</title>
-    <link rel="stylesheet" href="">
+    <title>Collab.com Login</title>
+    <link rel="stylesheet" href="signupstyle.css">
     <link rel="icon" href="icon.jpg">
 </head>
 <body>
-    
+    <div id="box">
+        <div id="boxinside">
+            <div id="formdiv">
+                <form action="mainindex.html" onsubmit="return isvalid()">
+                    <div id="loginheading">
+                        <h2>Create Team</h2>
+                    </div>
+                    <div id="formbox"><div class="signinbox">
+                        <img src="profile.png" alt="Email">
+                        <input type="text" id="teamName" placeholder="Team Name" required>
+                    </div>
+                    <div id="formbox"><div class="signinbox">
+                        <img src="profile.png" alt="Email">
+                        <input type="text" id="topic" placeholder="Heading" required>
+                    </div>
+                    <div id="formbox"><div class="signinbox" style="height: 40px; flex-direction: column;">
+                        <div id="hackathone">
+                            <input type="radio" id="option1" name="option" value="Hackathone">
+                            <label for="option1">Hackathone</label>
+                        </div>
+                        <div id="project">
+                            <input type="radio" id="option2" name="option" value="Project">
+                            <label for="option2">Project</label>
+                        </div>
+                    </div>
+                    <div class="signinbox">
+                        <textarea placeholder="Description" style="height: 60px; border: none; outline: none;" required></textarea>
+                    </div>
+                    <div class="signinbox3">
+                        <button style="width: 100%; height: 100%; border: none;">Upload image</button>
+                    </div>
+                    <div class="signinbox2">
+                        <input type="submit" id="Submit" value="Upload">
+                    </div>
+                </div>
+                    
+                </form>
+            </div>
+
+            <!-- <div id="lowernavigation">
+                <hr>
+                <h2>Login Via</h2>
+                <div id="images">
+                    <a href=""><img src="mail.png" alt="Navigation"></a>
+                    <a href=""><img src="phone.png" alt="Navigation"></a>
+                    <a href=""><img src="git1.png" alt="Navigation"></a>
+                </div>
+            </div>
+            <div id="signup">
+                <h6>Not A Member? <a href="signup.html">Sign Up</a></h6>
+            </div> -->
+        </div>
+    </div>
+    <script src="javastyle2.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@ var emailtype = /^[a-zA-Z0-9]+[@]+[a-zA-Z]+[\.]+[a-zA-Z]+$/;
 var usernametype = /^[A-Za-z\s]{2,}$/;
 function isvalid(){
     if (emailtype.test(email.value) && password.value!="" && email!="") {
-        alert("Sign Up Sucessfully!")
+        alert("Login Sucessfully!")
         return true;
     }
     else if(password.value==""){
